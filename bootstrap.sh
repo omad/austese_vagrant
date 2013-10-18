@@ -6,7 +6,7 @@ echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | 
 
 # Install packages
 apt-get update
-apt-get install -y apache2 php5 mongodb-10gen mysql-server
+apt-get install -y apache2 php5 mongodb-10gen mysql-server-5.5 php5-mongo drush
 
 
 
